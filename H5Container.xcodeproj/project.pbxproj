@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14789CDB9F2A03EC6B8D9E4D /* Pods_H5Container.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D5B65F588F852AB8870F1C /* Pods_H5Container.framework */; };
+		DA12C54720E388F4008BC8E5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DA12C54620E388F3008BC8E5 /* Reachability.m */; };
 		DA2F1AE620CF634E008E1537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1AE520CF634E008E1537 /* AppDelegate.swift */; };
 		DA2F1AE820CF634E008E1537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1AE720CF634E008E1537 /* ViewController.swift */; };
 		DA2F1AEB20CF634E008E1537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2F1AE920CF634E008E1537 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		DA2F1AF020CF6351008E1537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2F1AEE20CF6351008E1537 /* LaunchScreen.storyboard */; };
 		DA2F1AFB20CF6351008E1537 /* H5ContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1AFA20CF6351008E1537 /* H5ContainerTests.swift */; };
 		DA2F1B0620CF6351008E1537 /* H5ContainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1B0520CF6351008E1537 /* H5ContainerUITests.swift */; };
+		DA2F1B1E20CF6637008E1537 /* H5TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1B1720CF6637008E1537 /* H5TabView.swift */; };
+		DA2F1B1F20CF6637008E1537 /* H5TabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2F1B1820CF6637008E1537 /* H5TabView.xib */; };
+		DA2F1B2120CF6637008E1537 /* H5WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1B1C20CF6637008E1537 /* H5WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A1400DADC806C57AED01DE9 /* Pods-H5Container.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H5Container.release.xcconfig"; path = "Pods/Target Support Files/Pods-H5Container/Pods-H5Container.release.xcconfig"; sourceTree = "<group>"; };
+		6D53C83277DDFCFF24174D35 /* Pods-H5Container.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H5Container.debug.xcconfig"; path = "Pods/Target Support Files/Pods-H5Container/Pods-H5Container.debug.xcconfig"; sourceTree = "<group>"; };
+		DA12C54520E388F3008BC8E5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		DA12C54620E388F3008BC8E5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		DA2F1AE220CF634E008E1537 /* H5Container.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H5Container.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2F1AE520CF634E008E1537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA2F1AE720CF634E008E1537 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,12 @@
 		DA2F1B0120CF6351008E1537 /* H5ContainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H5ContainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2F1B0520CF6351008E1537 /* H5ContainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H5ContainerUITests.swift; sourceTree = "<group>"; };
 		DA2F1B0720CF6351008E1537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2F1B1720CF6637008E1537 /* H5TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H5TabView.swift; sourceTree = "<group>"; };
+		DA2F1B1820CF6637008E1537 /* H5TabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = H5TabView.xib; sourceTree = "<group>"; };
+		DA2F1B1C20CF6637008E1537 /* H5WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H5WebViewController.swift; sourceTree = "<group>"; };
+		DA36D6FE20CFA7BA00910893 /* H5Container-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "H5Container-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA36D70120D0ABA700910893 /* H5Container.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = H5Container.entitlements; sourceTree = "<group>"; };
+		F2D5B65F588F852AB8870F1C /* Pods_H5Container.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_H5Container.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14789CDB9F2A03EC6B8D9E4D /* Pods_H5Container.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C9DA9F8D539598CCB51E24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5B65F588F852AB8870F1C /* Pods_H5Container.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A804063C182BAD6A9990A516 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D53C83277DDFCFF24174D35 /* Pods-H5Container.debug.xcconfig */,
+				5A1400DADC806C57AED01DE9 /* Pods-H5Container.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA2F1AD920CF634E008E1537 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,8 @@
 				DA2F1AF920CF6351008E1537 /* H5ContainerTests */,
 				DA2F1B0420CF6351008E1537 /* H5ContainerUITests */,
 				DA2F1AE320CF634E008E1537 /* Products */,
+				A804063C182BAD6A9990A516 /* Pods */,
+				26C9DA9F8D539598CCB51E24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +132,15 @@
 		DA2F1AE420CF634E008E1537 /* H5Container */ = {
 			isa = PBXGroup;
 			children = (
+				DA36D70120D0ABA700910893 /* H5Container.entitlements */,
+				DA2F1B1620CF6637008E1537 /* webViews */,
 				DA2F1AE520CF634E008E1537 /* AppDelegate.swift */,
 				DA2F1AE720CF634E008E1537 /* ViewController.swift */,
 				DA2F1AE920CF634E008E1537 /* Main.storyboard */,
 				DA2F1AEC20CF6351008E1537 /* Assets.xcassets */,
 				DA2F1AEE20CF6351008E1537 /* LaunchScreen.storyboard */,
 				DA2F1AF120CF6351008E1537 /* Info.plist */,
+				DA36D6FE20CFA7BA00910893 /* H5Container-Bridging-Header.h */,
 			);
 			path = H5Container;
 			sourceTree = "<group>";
@@ -125,6 +163,18 @@
 			path = H5ContainerUITests;
 			sourceTree = "<group>";
 		};
+		DA2F1B1620CF6637008E1537 /* webViews */ = {
+			isa = PBXGroup;
+			children = (
+				DA12C54520E388F3008BC8E5 /* Reachability.h */,
+				DA12C54620E388F3008BC8E5 /* Reachability.m */,
+				DA2F1B1720CF6637008E1537 /* H5TabView.swift */,
+				DA2F1B1820CF6637008E1537 /* H5TabView.xib */,
+				DA2F1B1C20CF6637008E1537 /* H5WebViewController.swift */,
+			);
+			path = webViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA2F1B0A20CF6351008E1537 /* Build configuration list for PBXNativeTarget "H5Container" */;
 			buildPhases = (
+				76C392A1335DFFB11B48B7F2 /* [CP] Check Pods Manifest.lock */,
 				DA2F1ADE20CF634E008E1537 /* Sources */,
 				DA2F1ADF20CF634E008E1537 /* Frameworks */,
 				DA2F1AE020CF634E008E1537 /* Resources */,
+				013187E663DD481BA7893540 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +245,14 @@
 				TargetAttributes = {
 					DA2F1AE120CF634E008E1537 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					DA2F1AF520CF6351008E1537 = {
 						CreatedOnToolsVersion = 9.4;
@@ -230,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2F1AF020CF6351008E1537 /* LaunchScreen.storyboard in Resources */,
+				DA2F1B1F20CF6637008E1537 /* H5TabView.xib in Resources */,
 				DA2F1AED20CF6351008E1537 /* Assets.xcassets in Resources */,
 				DA2F1AEB20CF634E008E1537 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +312,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		013187E663DD481BA7893540 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-H5Container/Pods-H5Container-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BFPaperButton/BFPaperButton.framework",
+				"${BUILT_PRODUCTS_DIR}/LeanCloud/LeanCloud.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BFPaperButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeanCloud.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-H5Container/Pods-H5Container-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C392A1335DFFB11B48B7F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-H5Container-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA2F1ADE20CF634E008E1537 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2F1B2120CF6637008E1537 /* H5WebViewController.swift in Sources */,
 				DA2F1AE820CF634E008E1537 /* ViewController.swift in Sources */,
+				DA2F1B1E20CF6637008E1537 /* H5TabView.swift in Sources */,
 				DA2F1AE620CF634E008E1537 /* AppDelegate.swift in Sources */,
+				DA12C54720E388F4008BC8E5 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,16 +539,24 @@
 		};
 		DA2F1B0B20CF6351008E1537 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D53C83277DDFCFF24174D35 /* Pods-H5Container.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = H5Container/H5Container.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6PGX6JMLU9;
 				INFOPLIST_FILE = H5Container/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.H5Container;
+				PRODUCT_BUNDLE_IDENTIFIER = zuboll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f90ba139-5121-41ba-b616-8ab5eb2b442b";
+				PROVISIONING_PROFILE_SPECIFIER = test;
+				SWIFT_OBJC_BRIDGING_HEADER = "H5Container/H5Container-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,16 +564,24 @@
 		};
 		DA2F1B0C20CF6351008E1537 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1400DADC806C57AED01DE9 /* Pods-H5Container.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = H5Container/H5Container.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6PGX6JMLU9;
 				INFOPLIST_FILE = H5Container/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.H5Container;
+				PRODUCT_BUNDLE_IDENTIFIER = zuboll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "73c5e8fb-99b6-4b13-ac17-2cd18d6ecf4d";
+				PROVISIONING_PROFILE_SPECIFIER = zubollDis;
+				SWIFT_OBJC_BRIDGING_HEADER = "H5Container/H5Container-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

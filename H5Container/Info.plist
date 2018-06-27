@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>足球花式挑战</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -20,6 +22,11 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -28,6 +35,8 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -40,6 +49,38 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>用于保存图片到相册</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>wechat</string>
+		<string>weixin</string>
+		<string>weixins</string>
+		<string>sinaweibohd</string>
+		<string>sinaweibo</string>
+		<string>sinaweibosso</string>
+		<string>weibosdk</string>
+		<string>weibo</string>
+		<string>weibosdk2.5</string>
+		<string>mqqapi</string>
+		<string>mqqapis</string>
+		<string>mqq</string>
+		<string>mqqs</string>
+		<string>mqqOpensdkSSoLogin</string>
+		<string>mqqconnect</string>
+		<string>mqqopensdkdataline</string>
+		<string>mqqopensdkgrouptribeshare</string>
+		<string>mqqopensdkfriend</string>
+		<string>mqqopensdkapi</string>
+		<string>mqqopensdkapiV2</string>
+		<string>mqqopensdkapiV3</string>
+		<string>mqqopensdkapiV4</string>
+		<string>mqqwpa</string>
+		<string>mqqbrowser</string>
+		<string>alipay</string>
+		<string>alipays</string>
+		<string>alipayshare</string>
 	</array>
 </dict>
 </plist>

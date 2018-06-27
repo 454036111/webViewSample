@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "H5Container/webViews/H5WebViewController.swift"
+            timestampString = "551785158.591453"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "316"
+            endingLineNumber = "316"
+            landmarkName = "webView(_:decidePolicyFor:decisionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "H5Container.H5WebViewController.webView(__ObjC.WKWebView, decidePolicyFor: __ObjC.WKNavigationAction, decisionHandler: (__C.WKNavigationActionPolicy) -&gt; ()) -&gt; ()"
+                  moduleName = "H5Container"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liucy/Desktop/H5Container/H5Container/webViews/H5WebViewController.swift"
+                  timestampString = "551785158.598302"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "316"
+                  endingLineNumber = "316"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "H5Container.H5WebViewController.webView(__ObjC.WKWebView, decidePolicyFor: __ObjC.WKNavigationAction, decisionHandler: (__C.WKNavigationActionPolicy) -&gt; ()) -&gt; ()"
+                  moduleName = "H5Container"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liucy/Desktop/H5Container/H5Container/webViews/H5WebViewController.swift"
+                  timestampString = "551785158.6003259"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "316"
+                  endingLineNumber = "316"
+                  offsetFromSymbolStart = "2508">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
